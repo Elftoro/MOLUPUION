@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: 10rem 10rem 10rem;
+    grid-template-columns: 10rem 10rem 10rem;
+}
+
+.cell {
+    display: flex;
+    background: #444;
+    border: 1px solid #555;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+}
